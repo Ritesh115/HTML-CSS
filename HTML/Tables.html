@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+<!-- 
+  The <tr> element defines a table row, the <th> element defines a table header, and the <td> element defines a table cell. -->
+
+
+  <Table>
+    <tr>
+      <th rowspan="2">name</th>
+      <th>email</th>
+      <th>code</th>
+    </tr>
+    <tr>
+      <td>Ritesh</td>
+      <td>abc@gmail.com</td>
+      <td>123</td>
+    </tr>
+    <tr>
+      <td>Sid</td>
+      <td>sid@gmail.com</td>
+      <td>456</td>
+    </tr>
+    <tr>
+      <td>Omkar</td>
+      <td>omkar@gmail.com</td>
+      <td>7899</td>
+    </tr>
+  </Table>
+
+
+  <br>
+
+  <table>
+    <caption>
+      Front-end web developer course 2025
+    </caption>
+    <thead>
+      <tr>
+        <th scope="col">Person</th>
+        <th scope="col">Most interest in</th>
+        <th scope="col">Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Chris</th>
+        <td>HTML tables</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <th>Dennis</th>
+        <td>Web accessibility</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <th>Sarah</th>
+        <td>JavaScript frameworks</td>
+        <td>29</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th  colspan="2">Average age</th>
+        <td>33</td>
+      </tr>
+    </tfoot>
+  </table>
+  
+<!-- colspan
+rowspan -->
+
+</body>
+</html>
